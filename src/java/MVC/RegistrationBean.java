@@ -5,11 +5,11 @@
  */
 package MVC;
 
-import javax.enterprise.context.RequestScoped;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 
 
-
-@Named
+@ManagedBean
 @RequestScoped
 public class RegistrationBean {
     private String salutation;
